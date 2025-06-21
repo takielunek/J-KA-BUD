@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* wrapper */
+
+.wrapper {
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media (min-width: 1920px) {
+  .wrapper {
+    max-width: 1920px;
+  }
+}
+
+/* animation */
+
+.underline-hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.underline-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #8bc34c;
+  transition: width 0.3s ease;
+  transform-origin: left;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}
+
