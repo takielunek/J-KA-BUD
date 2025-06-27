@@ -3,16 +3,16 @@ const Worth = () => {
     const text = "text-black text-center font-raleway";
 
   return (
-    <div
-      id="odbiór-techniczny"
-      className="px-[30px] xs:px-[60px] py-[100px] xs:py-[200px]"
-    >
-      <p className={`${text} text-[14px] xs:text-[18px]`}>
-        Sprawdzamy to, czego nie widzisz!
-      </p>
-      <p className={`${text} text-[20px] xs:text-[30px] font-bold`}>
-        Dlaczego warto skorzystać z profesjonalnego odbioru technicznego?
-      </p>
+    <div id="odbiór-techniczny" className="py-[100px] xs:py-[200px]">
+      <div className="px-[30px] xs:px-[60px]">
+        <p className={`${text} text-[14px] xs:text-[18px]`}>
+          Sprawdzamy to, czego nie widzisz!
+        </p>
+        <p className={`${text} text-[20px] xs:text-[30px] font-bold`}>
+          Dlaczego warto skorzystać z profesjonalnego odbioru technicznego?
+        </p>
+      </div>
+
       <div className="flex justify-center mt-[30px] mb-[50px] sm:mb-[100px]">
         <div className="w-[200px] h-[3px] bg-green"></div>
       </div>
@@ -25,7 +25,7 @@ const Worth = () => {
             J-KA <span className="text-green font-bold">BUD</span>
           </a>
           <div className="w-[3px] h-[70px] bg-navy mx-[30px] hidden sm:block"></div>
-          <p className="w-full sm:w-[60%] md:w-[70%] xl:w-[75%] text-[14px] xs:text-[18px] text-black font-raleway text-justify">
+          <p className="w-full sm:w-[60%] md:w-[70%] xl:w-[75%] text-[14px] xs:text-[16px] text-black font-raleway text-justify">
             <span className="font-bold">Profesjonalny odbiór techniczny</span>{" "}
             to kluczowy etap zakupu nieruchomości, który pozwala na rzetelną
             weryfikację jakości wykonania lokalu przed jego formalnym

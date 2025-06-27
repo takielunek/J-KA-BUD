@@ -2,15 +2,15 @@ import { FaSquareFull } from "react-icons/fa";
 
 const PrivacyPolicy = () => {
   const styles = {
-    section: "my-[20px] xs:my-[40px]",
+    section: "my-[10px] xs:my-[20px]",
     header:
       "bg-navy text-white font-raleway text-center text-[20px] xs:text-[30px] font-semibold py-[50px]",
     title:
-      "text-[14px] xs:text-[18px] text-black font-montserrat font-semibold my-[5px]",
+      "text-[14px] xs:text-[16px] text-black font-montserrat font-semibold my-[5px]",
     paragraph:
-      "text-[14px] xs:text-[18px] text-black font-montserrat ml-[15px]",
+      "text-[14px] text-black font-montserrat ml-[15px]",
     bullet:
-      "text-green mt-[6px] xs:mt-[4px] mr-[10px] xs:mr-[15px] h-[7px] xs:h-[10px] w-[7px] xs:w-[10px] shrink-0",
+      "text-green mt-[6px] xs:mt-[4px] mr-[10px] xs:mr-[15px] h-[7px] xs:h-[8px] w-[7px] xs:w-[8px] shrink-0",
     wrapper: "wrapper px-[30px] xs:px-[60px] py-[50px] xs:py-[80px]",
   };
 
@@ -91,11 +91,11 @@ const PrivacyPolicy = () => {
             ))}
 
             {section.list && (
-              <div className="mt-[10px] space-y-2 ml-[15px]">
+              <div className="mt-[10px] space-y-[4px] ml-[15px]">
                 {section.list.map((item, j) => (
                   <div key={j} className="flex items-start">
                     <FaSquareFull className={styles.bullet} />
-                    <span className="text-[14px] xs:text-[18px] font-montserrat text-black leading-tight">
+                    <span className="text-[14px] font-montserrat text-black leading-tight">
                       {item}
                     </span>
                   </div>

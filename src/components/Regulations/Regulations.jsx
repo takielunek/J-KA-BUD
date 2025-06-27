@@ -4,13 +4,13 @@ const Regulations = () => {
   const headerStyle =
     "bg-navy text-white font-raleway text-center text-[20px] xs:text-[30px] font-semibold py-[50px]";
   const sectionTitleStyle =
-    "text-[14px] xs:text-[18px] text-black font-montserrat font-semibold my-[10px]";
+    "text-[14px] xs:text-[16px] text-black font-montserrat font-semibold my-[10px]";
   const paragraphStyle =
-    "text-[14px] xs:text-[18px] text-black font-montserrat ml-[15px]";
+    "text-[14px] text-black font-montserrat ml-[15px]";
   const bulletStyle = "flex items-start ml-[15px] space-x-2";
   const bulletIconStyle =
-    "text-green mr-0 xs:mr-[5px] h-[7px] xs:h-[10px] w-[7px] xs:w-[10px] mt-[4px] shrink-0";
-  const sectionSpacing = "my-[20px] xs:my-[40px]";
+    "text-green mr-0 xs:mr-[5px] h-[7px] xs:h-[8px] w-[7px] xs:w-[8px] mt-[4px] shrink-0";
+  const sectionSpacing = "my-[10px] xs:my-[20px]";
 
   const regulationsData = [
     {
@@ -105,7 +105,7 @@ const Regulations = () => {
         {regulationsData.map((section, idx) => (
           <div key={idx} className={sectionSpacing}>
             <h2 className={sectionTitleStyle}>{section.title}</h2>
-            <div>
+            <div className="space-y-[4px]">
               {section.content.map((item, i) =>
                 typeof item === "string" ? (
                   <p key={i} className={paragraphStyle}>
@@ -114,8 +114,8 @@ const Regulations = () => {
                 ) : (
                   item.list?.map((point, j) => (
                     <div key={j} className={bulletStyle}>
-                      <FaSquareFull className={bulletIconStyle} />
-                      <span className="text-[14px] xs:text-[18px] font-montserrat text-black leading-tight">
+                      <FaSquareFull className={`${bulletIconStyle}`} />
+                      <span className="text-[14px] font-montserrat text-black leading-tight">
                         {point}
                       </span>
                     </div>

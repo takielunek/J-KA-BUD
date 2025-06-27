@@ -10,7 +10,7 @@ const Navbar = () => {
   const info =
     "text-white hover:text-green text-[12px] xs:text-[14px] font-normal font-montserrat flex";
   const desktopLink =
-    "text-black text-[18px] font-semibold font-raleway underline-hover";
+    "text-black text-[16px] font-semibold font-raleway underline-hover";
   const media =
     "text-navy hover:text-green h-[25px] xs:h-[35px] w-[25px] xs:w-[35px]";
 

@@ -45,8 +45,8 @@ const MainTopic = () => {
           Warto wiedzieć
         </p>
         <p className={`${text} text-[12px] xs:text-[18px]`}>
-          Dz. U. 2021 poz. 1177 USTAWA z dnia 20 maja 2021 r. o ochronie praw
-          nabywcy lokalu mieszkalnego lub domu jednorodzinnego
+          Ustawa z dnia 20.05.2021 r. o ochronie praw nabywcy lokalu
+          mieszkalnego lub domu jednorodzinnego:
         </p>
       </div>
       <div className={`${box}`}>

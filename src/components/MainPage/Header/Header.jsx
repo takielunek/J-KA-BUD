@@ -50,7 +50,7 @@ const Header = () => {
         </p>
         <div className="flex flex-col xs:flex-row space-y-4 xs:space-x-6 xs:space-y-0 mt-[30px] xs:mt-[70px]">
           <a
-            className={`${styles.buttons} bg-green hover:bg-greenHover`}
+            className={`${styles.buttons} text-white bg-green hover:bg-greenHover`}
             href="#odbiory"
           >
             krok po kroku

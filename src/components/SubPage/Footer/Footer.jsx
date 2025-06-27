@@ -6,9 +6,10 @@ import { CiInstagram } from "react-icons/ci";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const icon = "mr-[5px] mt-[3px]";
-  const text = "text-white text-[14px] xs:text-[18px] font-montserrat";
+  const text = "text-white text-[14px] font-montserrat";
   const columns = "flex flex-col space-y-[5px] xs:space-y-[10px]";
-  const media = "text-white hover:text-green h-[35px] w-[35px]";
+  const media =
+    "text-white hover:text-green h-[25px] xs:h-[30px] w-[25px] xs:w-[30px]";
 
   return (
     <div id="kontakt" className="bg-navy">
@@ -80,7 +81,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="text-white text-[12px] font-montserrat flex justify-end pt-[100px] xs:pt-[150px] pb-[15px]">
+        <p className="text-white text-[12px] font-montserrat flex justify-end pt-[100px] pb-[15px]">
           programmed by
           <a
             className="hover:text-green"

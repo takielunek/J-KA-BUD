@@ -1,13 +1,13 @@
 const Steps = () => {
   const style =
-    "w-[250px] xxs:w-[270px] xs:w-[320px] h-[250px] xs:h-[300px] bg-navy hover:bg-navyHover text-white text-center border-2 border-green p-[30px] pt-[110px] text-[14px] xs:text-[18px] font-raleway relative m-[15px] mx-auto";
+    "w-[250px] xxs:w-[270px] xs:w-[320px] h-[250px] xs:h-[300px] bg-navy hover:bg-navyHover text-white text-center border-2 border-green p-[30px] pt-[120px] text-[14px] xs:text-[16px] font-raleway relative m-[15px] mx-auto";
   const button =
-    "bg-green hover:bg-greenHover text-white text-[14px] xs:text-[18px] w-[160px] xs:w-[200px] inline-block text-center py-[6px] absolute left-[50%] translate-x-[-50%] bottom-[40px]";
+    "bg-green hover:bg-greenHover text-white text-[14px] xs:text-[16px] w-[160px] xs:w-[200px] inline-block text-center py-[6px] absolute left-[50%] translate-x-[-50%] bottom-[40px]";
   const box = "w-[100%] h-full";
   const number =
     "text-[50px] xs:text-[60px] font-montserrat absolute top-[15px] left-[50%] translate-x-[-50%]";
   const bgNumber =
-    "absolute text-[200px] xs:text-[300px] font-montserrat left-[50%] translate-x-[-50%] top-[-50px] opacity-[3%]";
+    "absolute text-[200px] xs:text-[300px] font-montserrat left-[50%] translate-x-[-50%] top-[-50px] xs:top-[-80px] opacity-[3%]";
   const text = "text-white text-center font-raleway";
 
   const steps = [

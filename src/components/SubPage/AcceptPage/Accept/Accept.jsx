@@ -12,7 +12,7 @@ const Accept = () => {
   return (
     <div className="bg-navy relative pt-[70px] sm:pt-[100px]">
       <div className="wrapper">
-        <div className="pt-[50px] pb-[35px] xs:pb-[80px] md:pb-[150px]">
+        <div className="pt-[50px] pb-[35px] xs:pb-[80px] md:pb-[100px]">
           <p className={`${text} text-[14px] xs:text-[18px] font-montserrat`}>
             krok 2
           </p>

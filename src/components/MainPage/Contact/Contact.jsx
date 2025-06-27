@@ -16,7 +16,7 @@ const Contact = () => {
     divider:
       "w-[70px] ss:w-[3px] h-[3px] ss:h-[70px] bg-navy my-[20px] xs:my-[30px] mx-auto ss:mx-[30px] ss:my-0",
     contactText:
-      "text-[14px] xs:text-[18px] text-black font-montserrat hover:text-green",
+      "text-[14px] xs:text-[16px] text-black font-montserrat hover:text-green",
     icon: "mr-[5px] mt-[3px]",
   };
 
@@ -40,7 +40,7 @@ const Contact = () => {
 
             <div className={styles.divider}></div>
 
-            <div className="mt-[5px] space-y-[15px]">
+            <div className="mt-[10px] space-y-[10px]">
               <a
                 className={`${styles.contactText} flex justify-center ss:justify-start`}
                 href="tel:737161885"

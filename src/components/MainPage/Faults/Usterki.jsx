@@ -9,37 +9,38 @@ const Usterki = () => {
     "flex flex-col-reverse sm:flex-row justify-center text-center w-full";
   const lineSeparator = "w-[3px] h-full bg-navy mx-[20px] hidden sm:flex";
   const paragraph =
-    "w-full sm:w-[70%] md:w-[80%] xl:w-[75%] text-[14px] xs:text-[18px] text-black font-raleway text-justify";
+    "w-full sm:w-[70%] md:w-[80%] xl:w-[75%] text-[14px] xs:text-[16px] text-black font-raleway text-justify";
 const icon =
   "text-green w-[45px] xs:w-[60px] ss:w-[50px] h-[45px] xs:h-[60px] ss:h-[50px] mb-[10px] xs:mb-[20px]";
 
   const usterki = [
     {
       title: "Stolarka okienna i drzwiowa",
-      text: "Usterki w tej kategorii obejmują uszkodzenia ram, skrzydeł czy listew, a także nieprawidłowy montaż, który może skutkować nieszczelnością okien i drzwi. Zbyt wysoki próg może utrudniać użytkowanie i stanowić przeszkodę dla osób z ograniczoną mobilnością.",
+      text: "Najczęściej występujące usterki to nieprawidłowy docisk i regulacja skrzydeł, uszkodzenia lub przerwy w uszczelkach, zarysowania szyb i profili, a także brak elementów takich jak klamki, osłonki czy maskownice. W drzwiach często pojawiają się wady montażowe, źle osadzona ościeżnica, uszkodzony szyld lub wizjer oraz trudności z prawidłowym zamykaniem skrzydła.",
       icon: <FiHome className={`${icon}`} />,
     },
     {
       title: "Mury i tynki",
-      text: "Brak kątów prostych, nierówne powierzchnie czy ubytki świadczą o niskiej jakości wykonania. Obecność wilgoci lub grzyba może być sygnałem poważniejszych problemów konstrukcyjnych lub braku odpowiedniej wentylacji.",
+      text: "Do typowych usterek należą pęknięcia i odspojenia tynków, nadmierna wilgotność ścian, obecność grzyba lub wykwitów, uszkodzenia narożników oraz nieprawidłowo wykonane kąty i płaszczyzny. Tynki mogą być również głuche (niedostatecznie związane z podłożem), co prowadzi do ich odpadania.",
       icon: <FiGrid className={`${icon}`} />,
     },
     {
       title: "Posadzka i wylewki",
-      text: "Niewłaściwie wykonane posadzki mogą prowadzić do problemów z układaniem podłóg oraz powstawania pęknięć. Brak dylatacji, pylenie czy nierówności to częste błędy skutkujące dodatkowymi kosztami remontu.",
+      text: "Nierówności, brak dylatacji, pęknięcia, ubytki czy zbyt cienka warstwa wylewki to częste problemy. Błędy te mogą skutkować trudnościami przy montażu podłóg oraz ich późniejszym uszkodzeniem, np. wybrzuszeniami paneli czy pękaniem płytek.",
       icon: <FiLayers className={`${icon}`} />,
     },
     {
       title: "Instalacja elektryczna i niskoprądowa",
-      text: "Błędna lokalizacja gniazdek, zbyt płytkie puszki lub niepodłączone przewody mogą wpłynąć na bezpieczeństwo oraz funkcjonalność instalacji. Problemy z okablowaniem sieciowym mogą uniemożliwić korzystanie z internetu czy domowych systemów multimedialnych.",
+      text: "Niekiedy punkty elektryczne są rozmieszczone niezgodnie z projektem lub normami – np. zbyt wysoko lub nisko. Występują też błędy takie jak brak napięcia w gniazdkach, niezakończone przewody, źle zarobione kable, porysowany osprzęt czy brak ramki. Problemy obejmują także nieciągłość instalacji internetowej (RJ45) oraz nieprawidłowe oznaczenia przewodów.",
       icon: <FiZap className={`${icon}`} />,
     },
     {
       title: "Instalacja centralnego ogrzewania",
-      text: "Uszkodzone grzejniki, brak obróbek czy kolizje z innymi instalacjami mogą prowadzić do awarii i braku komfortu cieplnego. Niezgodność z projektem często oznacza kosztowne przeróbki lub nieskuteczne ogrzewanie pomieszczeń.",
+      text: "Typowe usterki to uszkodzenia mechaniczne grzejników, ich zapowietrzenie, nieszczelne podejścia, brak odpowiednich obróbek wokół wyprowadzeń instalacji oraz kolizje z innymi elementami wykończenia wnętrz. Często zdarza się również niezgodność z projektem, co może wpływać na efektywność ogrzewania.",
       icon: <FiThermometer className={`${icon}`} />,
     },
   ];
+  
 
   return (
     <div className="space-y-[30px] xs:space-y-[80px]">

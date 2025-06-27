@@ -2,16 +2,16 @@ import { PiBuildingApartmentThin, PiHouseLineThin } from "react-icons/pi";
 
 const Offer = () => {
   const box =
-    "relative border-[2px] border-green w-[250px] xxs:w-[270px] xs:w-[320px] h-[250px] xs:h-[300px] m-[15px] p-[30px] mx-auto text-[14px] xs:text-[18px] hover:bg-navyHover";
+    "relative border-[2px] border-green w-[250px] xxs:w-[270px] xs:w-[320px] h-[250px] xs:h-[300px] m-[15px] p-[30px] mx-auto text-[14px] xs:text-[16px] hover:bg-navyHover";
   const text = "text-white text-center font-raleway";
   const icon = "h-[65px] xs:h-[90px] w-[65px] xs:w-[90px]";
   const iconBox = "flex justify-center mb-[10px] xs:mb-[20px]";
   const greenButton =
-    "bg-green hover:bg-greenHover text-white text-[14px] xs:text-[18px] text-center py-[6px] w-[180px] xs:w-[250px]";
+    "bg-green hover:bg-greenHover text-white text-[14px] xs:text-[16px] text-center py-[6px] w-[160px] xs:w-[220px]";
   const bgIcon =
     "absolute h-[180px] xxs:h-[200px] xs:h-[250px] w-[180px] xxs:w-[200px] xs:w-[250px] left-[50%] translate-x-[-50%] opacity-[3%] top-[5px]";
     const button =
-      "bg-green hover:bg-greenHover text-white text-[14px] xs:text-[18px] w-[160px] xs:w-[200px] inline-block text-center py-[6px] absolute left-[50%] translate-x-[-50%] bottom-[40px]";
+      "bg-green hover:bg-greenHover text-white text-[14px] w-[160px] xs:w-[200px] inline-block text-center py-[6px] absolute left-[50%] translate-x-[-50%] bottom-[40px]";
   
   const offers = [
     {
@@ -35,7 +35,7 @@ const Offer = () => {
     {
       icon: PiHouseLineThin,
       title: "Dom",
-      subtitle: "indywidualna wycena",
+      price: "indywidualna wycena",
       href: "#kontakt",
     },
   ];

@@ -1,4 +1,4 @@
-import Usterki from "../../../MainPage/Faults/Usterki";
+import Tools from "./Tools";
 import { LiaArrowRightSolid } from "react-icons/lia";
 
 const MainTopic = () => {
@@ -44,17 +44,18 @@ const MainTopic = () => {
 
       <div className="px-[30px] xs:px-[60px]">
         <p className={`${text} text-[20px] xs:text-[30px] font-bold`}>
-          Przykładowe usterki
+          Profesjonalna kontrola jakości
         </p>
         <p className={`${text} text-[14px] xs:text-[18px]`}>
-          Zgłoszenie usterki do protokołu odbioru technicznego zobowiązuje
-          dewelopera do jej usunięcia!
+          Dzięki miernikom i narzędziom
+          budowlanym precyzyjnie oceniam jakość wykonania Twojej
+          nieruchomości.
         </p>
       </div>
       <div className="flex justify-center mt-[30px] mb-[50px] xs:mb-[100px]">
         <div className="w-[200px] h-[3px] bg-green"></div>
       </div>
-      <Usterki />
+      <Tools />
 
       <div className="flex justify-center pt-[50px] xs:pt-[150px] pb-[100px] xs:pb-[150px]">
         <a className={`${button}`} href="/protokol">
