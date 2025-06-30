@@ -26,7 +26,6 @@ npm run dev
 * Vite - Fast build tool for modern web projects ⚡
 * React Hook Form - Simplifies form management 📋
 * React Icons - Easy-to-use icon library for React ⭐
-* EmailJS - Send emails directly from your client-side code ✉️
 * Google Fonts - A library of web fonts provided by Google 🖋️
 
 ## 📧 Contact
